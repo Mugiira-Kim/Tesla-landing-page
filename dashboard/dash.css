@@ -434,11 +434,14 @@ main .recent-orders a {
     align-items: center;
     justify-content: center;
     width: 20%;
-    height: 2rem;
+    height: 3rem;
     color: white;
     font-size: 3rem;
     margin-bottom:1rem;
     transition: all 500ms ease;
+}
+.recent-orders .item h3 a{
+    color: #fff;
 }
 .recent-orders .item:hover {
     background-color: var(--color-primary-variant);
