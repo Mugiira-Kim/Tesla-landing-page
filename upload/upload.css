@@ -9,9 +9,11 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
   min-height: 100vh;
-  background: #6990F2;
+  background: #2965cc; 
 }
+
 ::selection{
   color: #fff;
   background: #6990F2;
@@ -115,4 +117,10 @@ section .details span{
 }
 .uploaded-area i.fa-check{
   font-size: 16px;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  color: #2965cc;
+  font-size: 18px;
 }

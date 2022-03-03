@@ -499,7 +499,7 @@ This is where you make  a site responsive*/
 
 /*******MEDIA QUERIES for mobile********/
 
-@media screen  and (max-width: 768px) {
+@media screen  and (max-width: 1200px) {
          .container {
              width: 100%;
              grid-template-columns: 1fr;
